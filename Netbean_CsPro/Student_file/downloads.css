@@ -1,0 +1,39 @@
+.body_wrap2{
+    font-family: Arial;
+    max-width: 900px;
+    padding: 10px;
+    margin: 0 auto;
+    background: #999;
+   
+    margin: 20px 20px;
+}
+.tab{
+    border-color: transparent;
+    font-size: 20px;
+    background:#666;
+    color:#fff;
+    padding:10px 20px;
+    cursor:pointer;
+    transition:0.2s;
+}
+.tab:focus{
+  outline: none;  
+}
+.tabs{
+    display: flex;    
+}
+.tab_two{
+   background: #888;
+   color: #444;
+}
+.content{
+    font-size:20px;
+    background:#666;
+    padding:5px 20px;
+    color:#fff;
+    display:none;
+}
+.content_tow{
+    background: #888;
+    color: #444;
+}

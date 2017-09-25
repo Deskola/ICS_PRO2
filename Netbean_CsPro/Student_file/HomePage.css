@@ -1,0 +1,80 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+header,section,nav,aside,footer,article{
+  display: block;
+}
+h1{
+  font-family: bold 20px Tahoma;
+}
+h2{
+  font-family: bold 15px Tahoma;
+}
+body{
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+}
+#wrapper{
+    max-width: 1000px;
+    margin: 20px 0px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-flex:1;    
+}
+#main_head{
+    border: 1px solid black;
+    padding: 40px;
+}
+#navigation > div{
+    display: inline-block;
+    padding: 10px;
+    padding-left: 15px;
+    font-family: bold 20px Tahoma;    
+}
+#body_wrap{
+    padding-left: 30%;
+    margin: 40px 60px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-flex:1; 
+}
+#main_sector{
+    border: 2px solid black;
+    padding: 40px;
+    width: 250px;
+    -webkit-border-radius: 10px;
+}
+
+#u_name{
+    width: 250px;
+    height: 30px;    
+    -webkit-border-radius: 4px;
+    
+}
+#pass{
+    width: 250px;
+    height: 30px;
+    -webkit-border-radius: 2px;
+}
+#logbtn{
+    width: 100px;
+    height: 30px;
+}
+#form_head{
+    text-align: center;
+}
+#error_msg{
+    color: red;
+    background-color: lawngreen;
+}
+
+#foot{
+    border-top: 3px solid black;
+    text-align: center;
+}
+footer section{
+    margin-top: 10px;
+}
+
